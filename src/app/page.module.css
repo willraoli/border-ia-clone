@@ -11,25 +11,6 @@
   align-items: center;
 }
 
-.overline {
-  border-radius: 0.25rem;
-  border: 1px solid var(--neutral-colors-gray-09, #27272a);
-  background: var(--neutral-colors-gray-10, #18181b);
-  padding: 0.5rem 1rem;
-}
-
-.overline h2 {
-  color: transparent;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 130%;
-  letter-spacing: 0.1rem;
-  text-transform: uppercase;
-  background-image: var(--linear-degrade);
-  background-clip: text;
-}
-
 .heading {
   font-size: 2rem;
   font-style: normal;

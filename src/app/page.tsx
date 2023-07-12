@@ -1,14 +1,13 @@
-import Button from "@/components/shared/Button";
-import styles from "./page.module.css";
 import figmaLogo from "@/assets/figma-logo.svg";
+import Button from "@/components/shared/Button";
+import Overline from "@/components/shared/Overline";
+import styles from "./page.module.css";
 
 const Home = () => {
   return (
     <section className={styles.container}>
       <div className={styles.wrapper}>
-        <div className={styles.overline}>
-          <h2>figma plugin</h2>
-        </div>
+        <Overline>figma plugin</Overline>
         <h1 className={styles.heading}>
           Acelere sua criação <span>de interfaces</span>
         </h1>
