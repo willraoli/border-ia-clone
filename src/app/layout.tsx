@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import { ReactNode } from "react";
 
 const spaceGrotesk = Space_Grotesk({
   weight: ["500", "400", "700"],
@@ -13,11 +14,7 @@ export const metadata: Metadata = {
   description: "Developed by willraoli",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className={spaceGrotesk.className}>
