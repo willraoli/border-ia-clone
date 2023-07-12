@@ -11,6 +11,8 @@
   position: absolute;
   top: 24.38rem;
   max-width: 20.25rem;
+  min-width: 15rem;
+  animation: slider 4s ease-in-out infinite alternate-reverse both;
 }
 
 .wrapper {
@@ -30,13 +32,14 @@
 
 .title {
   color: var(--neutral-colors-gray-04);
-  font-size: 0.83331rem;
   font-style: normal;
   font-weight: 500;
   line-height: 130%;
-  letter-spacing: 0.00831rem;
   align-self: stretch;
   text-align: center;
+  font-size: 1.125rem;
+  letter-spacing: 0.01125rem;
+  pointer-events: none;
 }
 
 .input {
@@ -45,16 +48,28 @@
   border: 0.741px solid var(--neutral-colors-gray-09);
   background: var(--neutral-colors-gray-10);
   color: var(--neutral-colors-gray-04);
-  font-size: 0.64813rem;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
-  letter-spacing: 0.0065rem;
+  letter-spacing: 0.00875rem;
   line-height: 150%;
   align-self: stretch;
+  pointer-events: none;
 }
 
 .input::placeholder {
   white-space: pre-line;
+}
+
+.loading {
+  pointer-events: none;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.loading img {
+  animation: rotate-center 2s linear infinite both;
 }
 
 @media (min-width: 900px) {
@@ -63,9 +78,22 @@
     right: 6.88rem;
     width: 100%;
   }
+}
 
-  .title {
-    font-size: 1.125rem;
-    letter-spacing: 0.01125rem;
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slider {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-2rem);
   }
 }
