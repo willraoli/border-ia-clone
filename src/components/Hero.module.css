@@ -1,0 +1,67 @@
+.container {
+  margin: 2.5rem 1.25rem;
+  position: relative;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.subheading {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.paragraph {
+  color: var(--neutral-colors-gray-05, #a1a1aa);
+  text-align: center;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.01125rem;
+}
+
+.figmaInterface {
+  margin-top: 12.5rem;
+  border-radius: 1rem 1rem 0rem 0rem;
+  position: relative;
+  mask-image: linear-gradient(
+    180deg,
+    rgba(63, 63, 70, 1) 0%,
+    rgba(63, 63, 70, 0) 100%
+  );
+  width: 39.75rem;
+  height: 21.57481rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin: 5rem 7rem;
+  }
+
+  .wrapper {
+    align-items: flex-start;
+    max-width: 40rem;
+  }
+
+  .subheading {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .paragraph {
+    text-align: left;
+  }
+
+  .figmaInterface {
+    margin-top: 8.75rem;
+    width: 100%;
+    height: 100%;
+  }
+}
