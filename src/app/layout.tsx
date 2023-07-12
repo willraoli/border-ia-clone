@@ -12,6 +12,7 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "Border IA Clone",
   description: "Developed by willraoli",
+  viewport: "width=device-width, initial-scale=1.0",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
