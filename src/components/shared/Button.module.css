@@ -1,0 +1,37 @@
+.button {
+  display: flex;
+  gap: 0.625rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25rem;
+  color: #fff;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.00875rem;
+  text-transform: uppercase;
+}
+
+.primary {
+  composes: button;
+  padding: 1rem 2rem;
+  background: var(--linear-degrade);
+  border: none;
+  white-space: nowrap;
+  gap: 0.5rem;
+}
+
+.secondary {
+  composes: button;
+  border: 1px solid var(--neutral-colors-gray-08, #3f3f46);
+  background: var(--neutral-colors-gray-09, #27272a);
+  padding: 0.75rem 1.5rem;
+}
+
+.textButton {
+}
+
+.button:hover {
+  cursor: pointer;
+}
