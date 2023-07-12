@@ -1,7 +1,10 @@
+import figmaInterface from "@/assets/figma-interface.png";
 import figmaLogo from "@/assets/figma-logo.svg";
+import PluginInterface from "@/components/PluginInterface";
 import Button from "@/components/shared/Button";
 import Heading from "@/components/shared/Heading";
 import Overline from "@/components/shared/Overline";
+import Image from "next/image";
 import styles from "./page.module.css";
 
 const Home = () => {
@@ -22,6 +25,13 @@ const Home = () => {
           </Button>
         </div>
       </div>
+      <Image
+        src={figmaInterface}
+        className={styles.figmaInterface}
+        alt=""
+        unoptimized
+      />
+      <PluginInterface />
       <div className={styles.background}></div>
     </section>
   );

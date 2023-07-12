@@ -38,6 +38,19 @@
   filter: blur(150px);
 }
 
+.figmaInterface {
+  margin-top: 12.5rem;
+  border-radius: 1rem 1rem 0rem 0rem;
+  position: relative;
+  mask-image: linear-gradient(
+    180deg,
+    rgba(63, 63, 70, 1) 0%,
+    rgba(63, 63, 70, 0) 100%
+  );
+  width: 39.75rem;
+  height: 21.57481rem;
+}
+
 @media (min-width: 900px) {
   .container {
     margin: 5rem 7rem;
@@ -55,6 +68,12 @@
 
   .paragraph {
     text-align: left;
+  }
+
+  .figmaInterface {
+    margin-top: 8.75rem;
+    width: 100%;
+    height: 100%;
   }
 }
 

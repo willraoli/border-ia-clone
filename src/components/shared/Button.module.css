@@ -15,18 +15,19 @@
 
 .primary {
   composes: button;
-  padding: 1rem 2rem;
+  padding: 1em 2em;
   background: var(--linear-degrade);
   border: none;
   white-space: nowrap;
   gap: 0.5rem;
+  align-self: stretch;
 }
 
 .secondary {
   composes: button;
   border: 1px solid var(--neutral-colors-gray-08, #3f3f46);
   background: var(--neutral-colors-gray-09, #27272a);
-  padding: 0.75rem 1.5rem;
+  padding: 0.75em 1.5em;
 }
 
 .textButton {

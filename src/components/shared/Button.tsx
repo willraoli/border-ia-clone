@@ -1,13 +1,13 @@
 import Image from "next/image";
 import styles from "./Button.module.css";
-import { PropsWithChildren } from "react";
+import { FC, PropsWithChildren } from "react";
 
 interface ButtonProps extends PropsWithChildren {
   icon?: string;
   variant: "primary" | "secondary";
 }
 
-const Button = ({ children, icon, variant }: ButtonProps) => {
+const Button: FC<ButtonProps> = ({ children, icon, variant }) => {
   return (
     <button className={styles[variant]}>
       {icon && <Image src={icon} alt="" />}
