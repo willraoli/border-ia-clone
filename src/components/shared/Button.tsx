@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { PropsWithChildren, ReactNode } from "react";
 import styles from "./Button.module.css";
+import { PropsWithChildren } from "react";
 
 interface ButtonProps extends PropsWithChildren {
   icon?: string;
