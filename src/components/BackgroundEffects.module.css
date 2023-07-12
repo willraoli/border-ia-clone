@@ -1,0 +1,92 @@
+.background {
+  width: 10rem;
+  height: 50rem;
+  position: absolute;
+  right: 1rem;
+  top: -12rem;
+  opacity: 0.30000001192092896;
+  background: linear-gradient(360deg, #c082ff 0%, #7967ff 54.17%, #c3bbff 100%);
+  filter: blur(150px);
+  animation: purpleShadow 5s ease-in-out infinite both;
+  transform: translateX(50%);
+}
+
+.line {
+  display: none;
+  position: absolute;
+  right: 0.5rem;
+  top: -12rem;
+  width: 0.25rem;
+  height: 35rem;
+  background: linear-gradient(360deg, #c082ff 0%, #7967ff 54.17%, #c3bbff 100%);
+  animation: slide-in-top 2.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  z-index: -1;
+}
+
+.dotGrid {
+  display: none;
+  position: absolute;
+  right: 0.5rem;
+  top: -12rem;
+  mask-image: radial-gradient(
+    49.83% 49.83% at 50% 42.28%,
+    rgba(217, 217, 217, 0.2) 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
+  transform: translateX(50%);
+}
+
+@keyframes purpleShadow {
+  0% {
+    transform: scaleX(100%) translateX(50%);
+  }
+
+  50% {
+    transform: scaleX(50%) translateX(100%);
+  }
+
+  100% {
+    transform: scaleX(100%) translateX(50%);
+  }
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (min-width: 900px) {
+  .background {
+    right: 1rem;
+  }
+
+  .dotGrid {
+    display: block;
+    right: 1rem;
+  }
+
+  .line {
+    display: block;
+    right: 1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .background {
+    right: 25rem;
+  }
+
+  .dotGrid {
+    right: 25rem;
+  }
+
+  .line {
+    right: 25rem;
+  }
+}

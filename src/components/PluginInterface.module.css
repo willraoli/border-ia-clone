@@ -13,6 +13,7 @@
   max-width: 20.25rem;
   min-width: 15rem;
   animation: slider 4s ease-in-out infinite alternate-reverse both;
+  z-index: 1;
 }
 
 .wrapper {
@@ -72,11 +73,24 @@
   animation: rotate-center 2s linear infinite both;
 }
 
+@media (min-width: 768px) {
+  .container {
+    top: 30rem;
+    right: -5rem;
+    width: 100%;
+  }
+}
+
 @media (min-width: 900px) {
   .container {
-    top: 19.19rem;
-    right: 6.88rem;
-    width: 100%;
+    top: 20rem;
+    right: -5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    right: 5rem;
   }
 }
 

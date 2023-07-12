@@ -7,13 +7,13 @@
   gap: 1rem;
   padding: 1.5rem 0;
   align-items: center;
+  justify-content: space-between;
 }
 
 .leftSide {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
   gap: 3.75rem;
 }
 
@@ -49,9 +49,9 @@
   gap: 1rem;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 768px) {
   .container {
-    margin: 0 7rem;
+    margin: 0 2.5rem;
   }
 
   .desktopLogo {
@@ -73,11 +73,5 @@
 
   .leftSide {
     align-items: center;
-  }
-}
-
-@media (min-width: 1600px) {
-  .container {
-    margin: 0 15rem;
   }
 }
