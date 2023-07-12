@@ -2,7 +2,7 @@ import Button from "@/components/shared/Button";
 import styles from "./page.module.css";
 import figmaLogo from "@/assets/figma-logo.svg";
 
-export default function Home() {
+const Home = () => {
   return (
     <section className={styles.container}>
       <div className={styles.wrapper}>
@@ -25,4 +25,6 @@ export default function Home() {
       <div className={styles.background}></div>
     </section>
   );
-}
+};
+
+export default Home;
