@@ -11,20 +11,6 @@
   align-items: center;
 }
 
-.heading {
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 130%;
-  text-align: center;
-  letter-spacing: 0.02rem;
-  color: var(--neutral-colors-gray-01);
-}
-
-.heading span {
-  color: var(--neutral-colors-gray-05);
-}
-
 .subheading {
   display: flex;
   flex-direction: column;
@@ -60,11 +46,6 @@
   .wrapper {
     align-items: flex-start;
     max-width: 40rem;
-  }
-  .heading {
-    font-size: 4rem;
-    letter-spacing: 0.04rem;
-    text-align: left;
   }
 
   .subheading {

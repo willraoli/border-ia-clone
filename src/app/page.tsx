@@ -1,5 +1,6 @@
 import figmaLogo from "@/assets/figma-logo.svg";
 import Button from "@/components/shared/Button";
+import Heading from "@/components/shared/Heading";
 import Overline from "@/components/shared/Overline";
 import styles from "./page.module.css";
 
@@ -8,9 +9,9 @@ const Home = () => {
     <section className={styles.container}>
       <div className={styles.wrapper}>
         <Overline>figma plugin</Overline>
-        <h1 className={styles.heading}>
+        <Heading>
           Acelere sua criação <span>de interfaces</span>
-        </h1>
+        </Heading>
         <div className={styles.subheading}>
           <p className={styles.paragraph}>
             Com o Border-IA, você poderá dar vida às suas ideias em tempo
