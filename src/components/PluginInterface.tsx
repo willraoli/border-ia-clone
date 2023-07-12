@@ -3,9 +3,9 @@ import hamburgerList from "@/assets/hamburger-list.svg";
 import mobileLogo from "@/assets/logo-mobile.svg";
 import iconSparkles from "@/assets/sparkles.svg";
 import Button from "@/components/shared/Button";
+import styles from "@/components/styles/PluginInterface.module.css";
 import Image from "next/image";
 import { FC } from "react";
-import styles from "./PluginInterface.module.css";
 
 const PluginInterface: FC = () => {
   return (

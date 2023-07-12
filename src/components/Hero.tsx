@@ -1,13 +1,13 @@
 import figmaInterface from "@/assets/figma-interface.png";
 import figmaLogo from "@/assets/figma-logo.svg";
+import BackgroundEffects from "@/components/BackgroundEffects";
 import PluginInterface from "@/components/PluginInterface";
 import Button from "@/components/shared/Button";
 import Heading from "@/components/shared/Heading";
 import Overline from "@/components/shared/Overline";
+import styles from "@/components/styles/Hero.module.css";
 import Image from "next/image";
 import { FC } from "react";
-import styles from "./Hero.module.css";
-import BackgroundEffects from "./BackgroundEffects";
 
 const Hero: FC = () => {
   return (

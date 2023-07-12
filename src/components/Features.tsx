@@ -1,12 +1,12 @@
+import iconArrowsOut from "@/assets/arrows-out.svg";
 import iconText from "@/assets/icon-text.svg";
 import iconSparkles from "@/assets/sparkle.svg";
-import iconArrowsOut from "@/assets/arrows-out.svg";
 import iconUserFocus from "@/assets/user-focus.svg";
+import Card from "@/components/Card";
 import Heading from "@/components/shared/Heading";
 import Overline from "@/components/shared/Overline";
+import styles from "@/components/styles/Features.module.css";
 import { FC } from "react";
-import Card from "@/components/Card";
-import styles from "./Features.module.css";
 
 const Features: FC = () => {
   return (

@@ -1,5 +1,5 @@
+import styles from "@/components/styles/shared/Button.module.css";
 import Image from "next/image";
-import styles from "./Button.module.css";
 import { FC, PropsWithChildren } from "react";
 
 interface ButtonProps extends PropsWithChildren {

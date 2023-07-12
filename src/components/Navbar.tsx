@@ -2,8 +2,8 @@ import hamburger from "@/assets/hamburger.svg";
 import desktopLogo from "@/assets/logo-desktop.svg";
 import mobileLogo from "@/assets/logo-mobile.svg";
 import Button from "@/components/shared/Button";
+import styles from "@/components/styles/Navbar.module.css";
 import Image from "next/image";
-import styles from "./Navbar.module.css";
 import Link from "next/link";
 
 const Navbar = () => {

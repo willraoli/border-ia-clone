@@ -1,5 +1,5 @@
+import styles from "@/components/styles/shared/Overline.module.css";
 import { PropsWithChildren } from "react";
-import styles from "./Overline.module.css";
 
 const Overline = ({ children }: PropsWithChildren) => {
   return (
