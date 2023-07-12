@@ -26,6 +26,7 @@ const PluginInterface: FC = () => {
           Start now
         </Button>
       </div>
+      <div className={styles.purpleLight} />
     </div>
   );
 };

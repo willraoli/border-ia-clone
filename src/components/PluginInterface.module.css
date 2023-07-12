@@ -73,6 +73,18 @@
   animation: rotate-center 2s linear infinite both;
 }
 
+.purpleLight {
+  position: absolute;
+  left: 5rem;
+  bottom: 0rem;
+  width: 8rem;
+  height: 9rem;
+  border-radius: 4rem;
+  opacity: 0.4;
+  background: var(--linear-degrade);
+  filter: blur(55px);
+}
+
 @media (min-width: 768px) {
   .container {
     top: 30rem;
