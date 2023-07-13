@@ -4,7 +4,7 @@ import { FC, PropsWithChildren } from "react";
 
 interface ButtonProps extends PropsWithChildren {
   icon?: string;
-  variant: "primary" | "secondary";
+  variant: "primary" | "secondary" | "banner";
 }
 
 const Button: FC<ButtonProps> = ({ children, icon, variant }) => {
