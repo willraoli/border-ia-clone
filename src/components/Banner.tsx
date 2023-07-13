@@ -1,8 +1,8 @@
-import styles from "@/components/styles/Banner.module.css";
-import { FC } from "react";
-import Button from "./shared/Button";
 import figmaLogo from "@/assets/figma-logo-black.svg";
+import Button from "@/components/shared/Button";
+import styles from "@/components/styles/Banner.module.css";
 import Image from "next/image";
+import { FC } from "react";
 
 interface Avatar {
   results: [
