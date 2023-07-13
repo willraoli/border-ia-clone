@@ -1,6 +1,6 @@
 import figmaInterface from "@/assets/figma-interface.png";
 import figmaLogo from "@/assets/figma-logo.svg";
-import BackgroundEffects from "@/components/BackgroundEffects";
+import HeroBackgroundEffects from "@/components/HeroBackgroundEffects";
 import PluginInterface from "@/components/PluginInterface";
 import Button from "@/components/shared/Button";
 import Heading from "@/components/shared/Heading";
@@ -33,7 +33,7 @@ const Hero: FC = () => {
         alt=""
         unoptimized
       />
-      <BackgroundEffects />
+      <HeroBackgroundEffects />
       <PluginInterface />
     </section>
   );

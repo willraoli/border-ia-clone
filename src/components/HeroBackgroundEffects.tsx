@@ -1,9 +1,9 @@
 import dotGrid from "@/assets/dot-grid.svg";
-import styles from "@/components/styles/BackgroundEffects.module.css";
+import styles from "@/components/styles/HeroBackgroundEffects.module.css";
 import Image from "next/image";
 import { FC } from "react";
 
-const BackgroundEffects: FC = () => {
+const HeroBackgroundEffects: FC = () => {
   return (
     <div>
       <div className={styles.background} />
@@ -13,4 +13,4 @@ const BackgroundEffects: FC = () => {
   );
 };
 
-export default BackgroundEffects;
+export default HeroBackgroundEffects;
