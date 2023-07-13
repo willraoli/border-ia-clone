@@ -20,7 +20,7 @@
 
 @media (min-width: 768px) {
   .container {
-    margin: 8.75rem 2.5rem;
+    margin: 8.75rem 2.5rem 8.75rem 2.5rem;
   }
 
   .cards {

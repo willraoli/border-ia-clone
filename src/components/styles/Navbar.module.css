@@ -33,6 +33,10 @@
   text-decoration: none;
 }
 
+.list li > a:hover {
+  filter: brightness(1.5);
+}
+
 .desktopLogo {
   display: none;
 }
