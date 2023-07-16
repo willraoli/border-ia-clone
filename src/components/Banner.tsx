@@ -1,3 +1,5 @@
+import dotGridLeft from "@/assets/banner_left-dot-grid.svg";
+import dotGridRight from "@/assets/banner_right-dot-grid.svg";
 import figmaLogo from "@/assets/figma-logo-black.svg";
 import Button from "@/components/shared/Button";
 import styles from "@/components/styles/Banner.module.css";
@@ -48,6 +50,8 @@ const Banner: FC = async () => {
           usar no figma
         </Button>
       </div>
+      <Image src={dotGridLeft} className={styles.dotGridLeft} alt="" />
+      <Image src={dotGridRight} className={styles.dotGridRight} alt="" />
     </section>
   );
 };
