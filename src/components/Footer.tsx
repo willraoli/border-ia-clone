@@ -14,9 +14,18 @@ const Footer: FC = () => {
       <footer className={styles.container}>
         <Image src={desktopLogo} alt="" />
         <div className={styles.iconWrapper}>
-          <Button variant={"secondary"} icon={instagramLogo} />
-          <Button variant={"secondary"} icon={discordLogo} />
-          <Button variant={"secondary"} icon={githubLogo} />
+          <a href="https://github.com/willraoli" target="_blank">
+            <Button variant={"secondary"} icon={githubLogo} />
+          </a>
+          <a href="https://instagram.com/willraoli" target="_blank">
+            <Button variant={"secondary"} icon={instagramLogo} />
+          </a>
+          <a
+            href="https://discordapp.com/users/288839428611375104"
+            target="_blank"
+          >
+            <Button variant={"secondary"} icon={discordLogo} />
+          </a>
         </div>
         <div className={styles.authorText}>
           UI por: Jonas Milan & André Valentim
