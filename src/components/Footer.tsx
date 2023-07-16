@@ -14,9 +14,9 @@ const Footer: FC = () => {
       <footer className={styles.container}>
         <Image src={desktopLogo} alt="" />
         <div className={styles.iconWrapper}>
-          <Button variant={"secondary"} icon={githubLogo} />
-          <Button variant={"secondary"} icon={discordLogo} />
           <Button variant={"secondary"} icon={instagramLogo} />
+          <Button variant={"secondary"} icon={discordLogo} />
+          <Button variant={"secondary"} icon={githubLogo} />
         </div>
         <div className={styles.authorText}>
           UI por: Jonas Milan & André Valentim
