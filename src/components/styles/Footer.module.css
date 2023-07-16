@@ -27,9 +27,17 @@
 
 @media (min-width: 768px) {
   .container {
-    margin: 2.5rem 7rem;
+    margin: 2.5rem;
     flex-direction: row;
     gap: 0;
     justify-content: space-between;
+  }
+
+  .ruler {
+    margin-inline: 2.5rem;
+  }
+
+  .authorText {
+    text-align: right;
   }
 }
